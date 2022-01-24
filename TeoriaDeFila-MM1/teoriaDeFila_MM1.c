@@ -1,3 +1,8 @@
+/*
+* Programa desenvolvido por Lucas Moura Liberal -  Universidade Federal do Oeste do Para
+* Instituto de Engenharia e Geociencias - Bacharelado em Sistemas de Informacao
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -68,44 +73,32 @@ float index_menu(int index, float lambda, float mi, float p){
         int n;
         printf("Digite o valor de n: "); scanf("%d", &n);
         printf("%.2f", n_ClientesNoSistema(p, n));
-        return 0;
     }
     if (index == 2){
         int n;
         printf("Digite o valor de n: "); scanf("%d", &n);
         printf("%.2f", n_maisClientesNoSistema(p, n));
-        return 0;
     }
     if (index == 3){
         printf("%.2f", n0_ClientesNaFila(p));
-        return 0;
     }
     if (index == 4){
         printf("%.2f", nMedio_ClientesNoSistema(mi, lambda));
-        return 0;
     }
     if (index == 5){
         printf("%.2f", nMedio_ClientesNaFila(lambda, mi));
-        return 0;
     }
     if (index == 6){
         printf("%.2f", nMedio_ClientesEmServico(p));
-        return 0;
     }
     if (index == 7){
         printf("%.4f", tempoMedio_RespostaDoSistema(mi, p));
-        return 0;
     }
     if (index == 8){
         printf("%.4f", tempoMedio_EsperaNaFila(p, mi));
-        return 0;
     }
     if (index == 9){
         printf("%.4f", tempoMedio_ClientesEmServico(mi));
-        return 0;
-    }
-    if (index == 0){
-        return 2;
     }
 }
 
