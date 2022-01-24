@@ -50,7 +50,7 @@ float tempoMedio_EsperaNaFila(float p, float mi){
 
 float tempoMedio_ClientesEmServico(float mi){
     float Es=1/mi;
-    return mi;
+    return Es;
 }
 
 void menu(float lambda, float mi, float p){
