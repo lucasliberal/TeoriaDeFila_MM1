@@ -1,5 +1,5 @@
 # TeoriaDeFila_MM1
-Apenas com os valores de <i>λ (taxa de chegada)</i> e <i>μ (taxa de serviço)</i> é possível através do programa calcular os valores de:
+Apenas com os valores de <i>λ (taxa de chegada)</i> e <i>μ (taxa de serviço)</i> é possível calcular os valores de:
 
 <b>Pn</b> - Probabilidade de ter n clientes no sistema   
 <b>P(>=n)</b> - Probabilidade de ter n ou mais clientes no sistema   
